@@ -1,9 +1,9 @@
 ssh -T git@github.com
 #git clone https://github.com/dtya/CV
 git init
-touch '段廷银.pdf'
+touch up.sh
 git add up.sh
-git commit -m '简历2015.03.06'
+git commit -m '上传文件的脚本'
 git remote rm origin
 git remote add origin https://github.com/dtya/CV
 git push origin master 
